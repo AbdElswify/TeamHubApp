@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/team_list_view"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
